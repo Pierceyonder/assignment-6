@@ -2,3 +2,35 @@ html {
 	box-sizing: border-box;
 	font-family: 'Contrail One', sans-serif;}
 }
+
+*, *::before, *::after {
+	box-sizing:inherit;}
+
+h1 {
+	background-color: #1a2230;
+	color: #ffffff;
+	box-shadow: inset 0px 0px 10px #000000;
+	margin: 0;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	text-align: center;
+}
+
+.robotbody {
+
+}
+
+.brain {
+
+
+}
+
+.headleft {
+
+
+}
+
+.headright {
+
+
+}
