@@ -6,31 +6,76 @@ html {
 *, *::before, *::after {
 	box-sizing:inherit;}
 
+body {
+	margin: 0;
+}
+
+header{
+	position: relative;
+	background-color: #2c3950;
+	width: 100%;
+	overflow: hidden;
+}
+
 h1 {
 	background-color: #1a2230;
 	color: #ffffff;
-	box-shadow: inset 0px 0px 10px #000000;
+	box-shadow: inset 0px 0px 8px #000000;
 	margin: 0;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	text-align: center;
+	width: 100%;
 }
 
-.robotbody {
-
-}
-
-.brain {
-
-
+.robot {
+	position: relative;
+	width: 320px;
+	margin: 0em auto;
 }
 
 .headleft {
-
-
+	position: absolute;
+	width: 125px;
+	bottom: 28.5%;
+	right: 50%;
+	transition: all 250ms linear;
 }
 
 .headright {
+	position: absolute;
+	width: 125px;
+	bottom: 28.5%%;
+	left: 50%;
+	transition: all 250ms linear;
+}
 
+.brain {
+	position: absolute;
+	width: 46px;
+	bottom: 55%;
+	left: 42.5%;
+	transition: all 250ms linear;
+}
+
+.robotbody {
+	width: 320px;
+	top: 3em;
+	margin-top: 75px;
+	display:block;
+}
+
+.robot:hover .brain {
+bottom: 65%;
+
+}
+
+.robot:hover .headleft {
+right: 55%;
+
+}
+
+.robot:hover .headright {
+left: 55%;
 
 }
