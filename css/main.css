@@ -39,7 +39,7 @@ h1 {
 	width: 125px;
 	bottom: 28.5%;
 	right: 50%;
-	transition: all 250ms linear;
+	transition: all 250ms linear; /* This is the speed at which the object will transition from point A to point B */
 }
 
 .headright {
@@ -65,13 +65,13 @@ h1 {
 	display:block;
 }
 
-.robot:hover .brain {
+.robot:hover .brain { /*This confused you at the time. The .robot is the div class, which you are making everything inside of hover.*/
 bottom: 65%;
 
 }
 
 .robot:hover .headleft {
-right: 55%;
+right: 55%; /*The amount at which the object will move left or right. Left needs to go right and right needs to go left. Confusing, I know. */
 
 }
 
